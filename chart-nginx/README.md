@@ -31,7 +31,7 @@ kubectl get pods
 
 helm install frontend nginx-chart --values env/prod-values.yaml
 
-#Helm Upgrade & Rollback
+##Helm Upgrade & Rollback
 helm upgrade frontend nginx-chart
 helm rollback frontend
 helm uninstall frontend
